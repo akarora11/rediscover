@@ -1,0 +1,249 @@
+.mainbanner{
+	/* background-image:url('../assets/pexels-photo-3958379.jpeg'); */
+	text-align: center;
+    color: black;
+	/* height: 70vh; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.mainbanner-text{
+	padding: 80px 0 400px 0;
+}
+.mainbanner-heading{
+	font-family: 'Lobster', cursive;
+	font-size: 75px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 30px;
+	color:coral;
+}
+
+.slider {
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+  }
+  
+  .img {
+	width: 100%;
+	height: 100%;
+  }
+
+.card-img-overlay {
+    background-color: rgba(#000, 0.4);
+  }
+
+  @media only screen and (min-width: 768px) {
+.banner-heading{
+    font-family: 'Libre Baskerville', cursive;    
+	font-size: 45px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+	color:rgb(44, 34, 128);
+}
+
+.banner-sub-heading{
+    font-family: 'Libre Baskerville', cursive;    
+	font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+	color:rgb(44, 34, 128);
+}
+  }
+
+  @media only screen and (max-width: 768px) {
+    .banner-heading{
+      font-family: 'Gothic A1', sans-serif;   
+    font-size: 45px;
+      font-weight: 300;
+      line-height: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+    color:rgb(44, 34, 128);
+  }
+  
+  .banner-sub-heading{
+      font-family: 'Gothic A1', sans-serif;  
+    font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      margin-bottom: 50px;
+      text-align: center;
+      justify-content: center;
+    color:rgb(44, 34, 128);
+  }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .banner-heading{
+      font-family: 'Gothic A1', sans-serif;   
+    font-size: 45px;
+      font-weight: 300;
+      line-height: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+    color:rgb(44, 34, 128);
+  }
+  
+  .banner-sub-heading{
+      font-family: 'Gothic A1', sans-serif;    
+    font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      margin-bottom: 50px;
+      text-align: center;
+      justify-content: center;
+    color:rgb(44, 34, 128);
+  }
+  }
+
+
+
+hr {
+    width: 200px;
+    background-color: coral;
+    height: 2px;
+    margin: auto;
+}
+
+/* .mat-divider {
+    border-top-color: #37b3e7;
+} */
+
+.mission {
+    font-family: 'Gothic A1', sans-serif;    
+	font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    /* margin-top: 40px; */
+    /* justify-content: center; */
+	color:rgb(44, 34, 128);
+}
+
+.mission-sub {
+    font-family: 'Libre Baskerville', cursive;    
+	font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    justify-content: right;
+	color:rgb(44, 34, 128);
+}
+
+/* Ribbon */
+#bottom {
+    background: #fff url(http://portfolio.queenofwhisks.com/demo/overlay/stripe-diagonal-broken.png);
+  }
+  h1 {
+    color: #333;
+    font-family: Zapfino, 'Edwardian Script ITC', cursive;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 6px 4px 3px rgba(0,0,0,0.5);
+    line-height: 1.0;
+    margin: 0 0 20px;
+  }
+  .ribbon-container {
+    background: transparent !important;
+    position: relative;
+    z-index: 1;
+  }
+  .ribbon {
+    background: hsl(30, 90%, 65%) url(http://portfolio.queenofwhisks.com/demo/overlay/noise.png);
+    box-shadow: 2px 6px 12px rgba(0,0,0,0.5);
+    font-family: Charter, serif;
+    font-size: 16px;
+    line-height: 1.0;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.25em 0;
+    position: relative;
+    width: 70%;
+  }
+  .ribbon:before,
+  .ribbon:after {
+    border: 1.5em solid hsl(30, 82%, 62%);
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -1em;
+    z-index: -1;
+  }
+  .ribbon:before {
+    left: -2em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+  }
+  .ribbon:after {
+    right: -2em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+    box-shadow: -2px 2px 2px rgba(0,0,0,0.5);
+  }
+  .ribbon-content {
+    border-top: 0.0625em dashed hsl(30, 90%, 44%);
+    border-bottom: 0.0625em dashed hsl(30, 90%, 44%);
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,0.08), inset 0px -1px 1px rgba(255,255,255,0.08), 0px -1px 1px rgba(255,255,255,0.2), 0px 1px 1px rgba(0,0,0,0.08);
+    display: block;
+    padding: 0.6875em 0;
+  }
+  .ribbon-content:before,
+  .ribbon-content:after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-color: hsl(30, 80%, 40%) transparent transparent transparent;
+    bottom: -1em;
+  }
+  .ribbon-content:before {
+    left: 0;
+    border-width: 1em 0 0 1em;
+  }
+  .ribbon-content:after {
+    right: 0;
+    border-width: 1em 1em 0 0;
+  }
+  .ribbon a {
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.25);
+  }
+  .ribbon a:hover {
+    color: black;
+  }
+  .underpage {
+    background: #f4f4f4 url(http://portfolio.queenofwhisks.com/demo/overlay/noise-paper.png);
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.25);
+    box-sizing: border-box;
+    color: #444;
+    font-family: Garamond, 'Goudy Old Style', Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 4.5em 1.5em 1.5em;
+    position: relative;
+    top: -4em;
+    width: 65%;
+    z-index: -1;
+  }
+  .underpage p:last-child {
+    margin-bottom: 0;
+  }

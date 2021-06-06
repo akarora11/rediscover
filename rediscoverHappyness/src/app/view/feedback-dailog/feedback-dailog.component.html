@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="login-logo">
+        <a><img class="img-fluid img" src="../../../assets/Name-removebg-preview.png" alt="My Ad Cubes"></a>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="col-md mt-2">
+        <!-- <h3 style="color: black; font-weight: 600; margin-bottom: 10px;">Submit Your Details</h3> -->
+        <div class="banner-heading mt-2">
+            <i>Submit Your Details</i>
+        </div>
+        <hr>
+        <form  #feedbackForm="ngForm" (ngSubmit)="onSubmit(feedbackForm)">
+            <div>
+                <div class="group">
+                    <input type="text" style="text-align: left;" name="fullname" placeholder="Name" #fullname="ngModel"
+                        [(ngModel)]="firstNameText" required><i class="fa fa-user"></i>
+                </div>
+                <div *ngIf="fullname.invalid && (fullname.dirty || fullname.touched)">
+                    <div *ngIf="fullname.errors.required" class="alert">*Name is required</div>
+                </div>
+            </div>
+            <div>
+                <div class="group">
+                    <input type="text" style="text-align: left;" name="email" placeholder="Email" #email="ngModel"
+                        [(ngModel)]="emailText" required><i class="far fa-envelope"></i>
+                </div>
+                <div *ngIf="email.invalid && (email.dirty || email.touched)">
+                    <div *ngIf="email.errors.required" class="alert">*Email is required</div>
+                </div>
+            </div>
+            <div>
+                <div class="group">
+                    <input type="text" style="text-align: left;" name="mobileNumber" placeholder="Phone Number" #mobileNumber="ngModel"
+                        [(ngModel)]="mobileNumberText" required><i class="fas fa-phone-alt"></i>
+                </div>
+                <div *ngIf="mobileNumber.invalid && (mobileNumber.dirty || mobileNumber.touched)">
+                    <div *ngIf="mobileNumber.errors.required" class="alert">Number is required</div>
+                </div>
+            </div>
+            <div>
+                <div class="group">
+                    <input type="text" style="text-align: left;" name="address" placeholder="Address" #address="ngModel"
+                        [(ngModel)]="addressText" required><i class="fas fa-map-marker-alt"></i>
+                </div>
+                <!-- <div *ngIf="address.invalid && (address.dirty || address.touched)">
+                    <div *ngIf="address.errors.required" class="alert">First Name is required</div>
+                </div> -->
+                <button class="btn btn-banner text-dark" style="background-color: #e07c24;" [disabled]="!feedbackForm.valid">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>

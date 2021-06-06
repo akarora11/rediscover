@@ -1,0 +1,41 @@
+<div *ngIf="isDesktop; else mobile">
+    <nav class="main-navigation">
+        <div class="container">
+            <div class="navbar-header animated fadeInUp" style="position: absolute;">
+                <a class="navbar-brand" href="#"><span><img src="../../../assets/Name-removebg-preview.png"
+                            class="logo image-fluid"></span></a>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-list-item">
+                    <a routerLink="/home" class="nav-link"><b>Home</b></a>
+                </li>
+                <li class="nav-list-item">
+                    <a routerLink="/services" class="nav-link"><b>Services</b></a>
+                </li>
+                <li class="nav-list-item">
+                    <a routerLink="/aboutUs" class="nav-link"><b>About Us</b></a>
+                </li>
+                <li class="nav-list-item">
+                    <a routerLink="/contact" class="nav-link"><b>Contact</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<ng-template #mobile>
+        <nav class="main-navigation">
+            <div class="container">
+                <div class="navbar-header animated fadeInUp" style="position: absolute;">
+                    <a class="navbar-brand" href="#"><span><img src="../../../assets/Name-removebg-preview.png"
+                                class="logo image-fluid"></span></a>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a routerLink="/home" class="nav-link" style="height: 10px; background-color: #000046;"><b></b></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <mat-fab-menu color="warn" [fabButtons]="fabButtonsRandom" (onFabMenuItemSelected)="selectedAction($event)">
+    </mat-fab-menu>
+</ng-template>

@@ -1,0 +1,153 @@
+<!-- <div class="style-4">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="banner">
+  <div class="container">
+    <img class="image-fluid" src="../assets/Name-removebg-preview.png">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/home"><b>Home</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/services">
+            <b>Services</b>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/aboutUs"><b>About Us</b></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" routerLink="/contact">
+            <b>Contact Us</b>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<mat-divider></mat-divider> -->
+
+
+
+<!-- <div class="banner img-fluid" @fade *ngIf="pageDetector();">
+  <div class="container">
+    <div class="banner-text">
+      <div class="banner-heading">
+        <ng-container *ngFor="let img of img_list; let i = index">
+          <div class="slider" *ngIf="current == i" @newfade>
+            <img class="img" [src]="img">
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- <ng-template #service>
+  <div class="banner img-fluid" *ngIf="!isAboutUs(); else aboutus">
+    <div class="container">
+      <div class="banner-text">
+        <div class="banner-heading">
+          <div class="slider" @newfade>
+          <img class="img" src="../assets/Our_services.jpg">
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ng-template #aboutus>
+    <div class="banner img-fluid" *ngIf="!isContactUs(); else contactus">
+      <div class="container">
+        <div class="banner-text">
+          <div class="banner-heading">
+            <div class="slider" @newfade>
+            <img class="img" src="../assets/about_us.jpg.jpg">
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ng-template #contactus>
+      <div class="banner img-fluid">
+        <div class="container">
+          <div class="banner-text">
+            <div class="banner-heading">
+              <div class="slider" @newfade>
+              <img class="img" src="../assets/Contact us.jpg">
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </ng-template>
+  </ng-template>
+</ng-template> -->
+<app-main-nav></app-main-nav>
+<router-outlet></router-outlet>
+
+
+<footer class="bg-dark text-white text-center text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0" style="border-right: 1px solid white;">
+        <!-- <h5 class="text-uppercase"></h5> -->
+        <img class="img-fluid" src="../assets/Name-removebg-preview.png">
+
+        <p class="text-left" style="color: rgb(238, 234, 227); margin-top: 10px;">
+          Rediscover Happyness is founded by Ms. Aheesha,
+          with the vision to provide the best possible solution
+          to people who are suffering from any mental health issue,
+          relationship issues, and career issues.
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase" style="color: white;"><b>CONTACTS</b></h5>
+        <p style="color: white;" class="text-left"><b style="font-size: 18px;">Registered Office :</b>160-A Ekta Apartments Paschim Vihar New Delhi - 110063</p>
+        <p style="color: white;" class="text-left"><b style="font-size: 18px;">Phone No. :</b> +917011964442</p>
+        <p style="color: white;" class="text-left"><b style="font-size: 18px;">Email ID :</b> help@rediscoverhappyness.com</p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mobile">
+        <h5 class="text-uppercase mb-3" style="color: white;"><b>INFO</b></h5>
+
+        <ul class="list-unstyled" class="text-left">
+          <li>
+            <a routerLink="/home" class="text-white">Home</a>
+          </li>
+          <li>
+            <a routerLink="/services" class="text-white">Services</a>
+          </li>
+          <li>
+            <a routerLink="/aboutUs" class="text-white">About Us</a>
+          </li>
+          <li>
+            <a routerLink="/contact" class="text-white">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">rediscoverhappyness.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>

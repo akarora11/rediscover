@@ -29,23 +29,25 @@ async function sendFeedbackMail(feedbackParam){
 
 
     let transporter = nodemailer.createTransport({
-            host: 'smtp.gmail.com',
-            port: 465,
-            secure: true, // use SSL, 
+            host: 'smtpout.secureserver.net',
+            port: 567,
+            secure: false, // use SSL, 
+            secureConnection: false,
+            requireTLS:true,
                           // you can try with TLS, but port is then 587
             // auth: {
             //   user: 'Rediscoverhappyness', // Your email id
             //   pass: 'Createhappyness@06' // Your password
             // }
             auth: {
-                user: 'arora.anuj98', // Your email id
-                pass: 'barinderkumar' // Your password
+                user: 'help@rediscoverhappyness.com', // Your email id
+                pass: 'Createhappyness@06' // Your password
               }
     })
 
     let mailOptions = {
-        from: "arora.anuj98@gmail.com",
-        to: "ak1812@checkboxtechnology.com",
+        from: "help@rediscoverhappyness.com",
+        to: "help@rediscoverhappyness.com",
         subject: "Feedback sent by " +  name,
         html: html
     };

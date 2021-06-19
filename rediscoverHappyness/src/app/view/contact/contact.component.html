@@ -21,7 +21,7 @@
                         <form class="shake" #feedbackForm="ngForm" (ngSubmit)="onSubmit(feedbackForm)">
                             <!-- Name -->
                             <div class="form-group label-floating">
-                                <label class="control-label" for="name">Name</label>
+                                <label class="control-label" style="font-size: 16px; color: rgb(61, 61, 61);" for="name">Name</label>
                                 <input class="form-control" id="name" type="text" #fullname="ngModel"
                                     [(ngModel)]="fullNameText" name="fullname" required>
                                 <div *ngIf="fullname.invalid && (fullname.dirty || fullname.touched)">
@@ -30,7 +30,7 @@
                             </div>
                             <!-- email -->
                             <div class="form-group label-floating">
-                                <label class="control-label" for="email">Email</label>
+                                <label class="control-label" style="font-size: 16px; color: rgb(61, 61, 61);" for="email">Email</label>
                                 <input class="form-control" id="email" type="email"  name="email"  #email="ngModel"
                                    [(ngModel)]="emailText"  required>
                                     <div *ngIf="email.invalid && (email.dirty || email.touched)">
@@ -39,7 +39,7 @@
                             </div>
                             <!-- Subject -->
                             <div class="form-group label-floating">
-                                <label class="control-label">Phone Number</label>
+                                <label class="control-label" style="font-size: 16px; color: rgb(61, 61, 61);">Phone Number</label>
                                 <input class="form-control" id="msg_subject" type="text" name="mobileNumber"
                                     #mobileNumber="ngModel" [(ngModel)]="phoneNumberText" required>
                                     <div *ngIf="mobileNumber.invalid && (mobileNumber.dirty || mobileNumber.touched)">
@@ -48,14 +48,14 @@
                             </div>
                             <!-- Address -->
                             <div class="form-group label-floating">
-                                <label class="control-label">Address</label>
+                                <label class="control-label" style="font-size: 16px; color: rgb(61, 61, 61);">Address</label>
                                 <input class="form-control" id="msg_subject" type="text" name="address" 
                                 #address="ngModel" [(ngModel)]="addressText" required>
                                 <div class="help-block with-errors"></div>
                             </div>
                             <!-- Message -->
                             <div class="form-group label-floating">
-                                <label for="message" class="control-label">Message</label>
+                                <label for="message" class="control-label" style="font-size: 16px; color: rgb(61, 61, 61);">Message</label>
                                 <textarea class="form-control" rows="3" id="message" name="message" #message="ngModel" [(ngModel)]="messageText" required></textarea>
                                 <div class="help-block with-errors"></div>
                             </div>
@@ -91,7 +91,7 @@
                 <div class="face face2">
                     <div class="content">
                         <h3>
-                            <a><b>Phone</b></a>
+                            <a><b>Whatsapp</b></a>
                         </h3>
                         <p><a href="https://api.whatsapp.com/send?phone=+917011964442">+91 7011964442</a></p>
                     </div>
@@ -103,16 +103,16 @@
                 <div class="face face1">
                     <div class="content">
                         <div class="icon">
-                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
                         </div>
                     </div>
                 </div>
                 <div class="face face2">
                     <div class="content">
                         <h3>
-                            <a><b>Email</b></a>
+                            <a><b>Instagram</b></a>
                         </h3>
-                        <p>Rediscoverhappyness@gmail.com</p>
+                        <p><a href="https://www.instagram.com/rediscoverhappyness">instagram.com/rediscoverhappyness</a></p>
                     </div>
                 </div>
             </div>
@@ -122,16 +122,16 @@
                 <div class="face face1">
                     <div class="content">
                         <div class="icon">
-                            <i class="fas fa-map-marked-alt" aria-hidden="true"></i>
+                            <i class="fa fa-facebook-square" aria-hidden="true"></i>
                         </div>
                     </div>
                 </div>
                 <div class="face face2">
                     <div class="content">
                         <h3>
-                            <a><b>Address</b></a>
+                            <a><b>Facebook</b></a>
                         </h3>
-                        <p>160-A Ekta Apartments, Paschim Vihar, New Delhi - 110063</p>
+                        <p><a href="https://www.facebook.com/Rediscover-Happyness-106424931665622">Rediscover-Happyness</a></p>
                     </div>
                 </div>
             </div>

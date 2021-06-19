@@ -1,4 +1,4 @@
 export const environment = {
-  apiBaseUrl: 'http://backend-server.checkboxtechnology.com/',
+  apiBaseUrl: 'http://backend-server.rediscoverhappyness.com/',
   production: true
 };

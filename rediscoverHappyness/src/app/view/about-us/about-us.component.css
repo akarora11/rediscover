@@ -61,6 +61,30 @@
     justify-content: center;
 	color:rgb(44, 34, 128);
 }
+
+.mission {
+  font-family: 'Gothic A1', sans-serif;    
+font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  /* margin-top: 40px; */
+  /* justify-content: center; */
+color:rgb(44, 34, 128);
+}
+
+.mission-sub {
+  font-family: 'Libre Baskerville', cursive;    
+font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  justify-content: right;
+color:rgb(44, 34, 128);
+}
+
   }
 
   @media only screen and (max-width: 768px) {
@@ -84,6 +108,30 @@
       justify-content: center;
     color:rgb(44, 34, 128);
   }
+
+  .mission {
+    font-family: 'Gothic A1', sans-serif;    
+	font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    /* margin-top: 40px; */
+    /* justify-content: center; */
+	color:rgb(44, 34, 128);
+}
+
+.mission-sub {
+    font-family: 'Gothic A1', sans-serif;  
+	font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    justify-content: right;
+	color:rgb(44, 34, 128);
+}
+
   }
 
   @media only screen and (max-width: 768px) {
@@ -107,6 +155,30 @@
       justify-content: center;
     color:rgb(44, 34, 128);
   }
+
+  .mission {
+    font-family: 'Gothic A1', sans-serif;    
+	font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    /* margin-top: 40px; */
+    /* justify-content: center; */
+	color:rgb(44, 34, 128);
+}
+
+.mission-sub {
+    font-family: 'Gothic A1', sans-serif;    
+	font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    justify-content: right;
+	color:rgb(44, 34, 128);
+}
+
   }
 
 
@@ -122,28 +194,6 @@ hr {
     border-top-color: #37b3e7;
 } */
 
-.mission {
-    font-family: 'Gothic A1', sans-serif;    
-	font-size: 25px;
-    font-weight: 700;
-    line-height: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-    /* margin-top: 40px; */
-    /* justify-content: center; */
-	color:rgb(44, 34, 128);
-}
-
-.mission-sub {
-    font-family: 'Libre Baskerville', cursive;    
-	font-size: 16px;
-    font-weight: 500;
-    line-height: 30px;
-    margin-bottom: 30px;
-    text-align: left;
-    justify-content: right;
-	color:rgb(44, 34, 128);
-}
 
 /* Ribbon */
 #bottom {

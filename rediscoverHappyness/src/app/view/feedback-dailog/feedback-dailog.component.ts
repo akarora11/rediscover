@@ -27,6 +27,7 @@ export class FeedbackDailogComponent implements OnInit {
     const result = this.feedbackService.postFeedback(feedbackForm.value).then( success => {
       alert("Your Form is Submitted! We will contact you soon")
       feedbackForm.reset();
+      this.dialogRef.close();
     })
   }
 

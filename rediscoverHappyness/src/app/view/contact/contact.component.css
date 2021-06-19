@@ -120,8 +120,8 @@ hr {
 /* Form Control */
 
 .control-label {
-    font-size: medium;
-    color: rgb(143, 143, 143);
+    font-size: 24px;
+    color: rgb(59, 59, 59);
 }
 
 input {
